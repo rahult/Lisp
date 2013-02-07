@@ -1,0 +1,27 @@
+(equal 'apple 'apple)
+
+(equal (list 1 2 3) (list 1 2 3))
+
+(equal '(1 2 3) (cons 1 (cons 2 (cons 3 ()))))
+
+(equal 5 5)
+
+(equal 2.5 2.5)
+
+(equal "foo" "foo")
+
+(equal #\a #\a)
+
+(eql 'foo 'foo)
+
+(eql 3.4 4.5)
+
+(eql 3 3)
+
+(eql #\a #\a)
+
+(equalp "Bob Smith" "bob smith")
+
+(equalp 0 0.0)
+
+(equalp 1 1.0)
